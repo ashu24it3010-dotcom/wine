@@ -21,7 +21,7 @@ jobs:
 
           echo "## Model metrics" > report.md 
           cml-publish feature_importance.png --md >> report.md
-          cml_publish residuals.png --md>> report.md 
+          cml-publish residuals.png --md>> report.md 
 
           cml-send-comment report.md 
 
